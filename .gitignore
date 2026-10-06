@@ -1,0 +1,23 @@
+# Build directory and executables
+build/
+library
+library.exe
+run_tests
+run_tests.exe
+*.o
+*.a
+*.so
+*.dylib
+
+# Database files
+database/*.db
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
+
+# IDE & OS temp files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
